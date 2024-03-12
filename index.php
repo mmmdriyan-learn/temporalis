@@ -2,11 +2,11 @@
 <?php 
     $koneksi = mysqli_connect("localhost","root","","temporalis");
         // test koneksi database
-        if($koneksi){
-            echo 'berhasil koneksi ';
-        }else{
-            echo 'gagal';
-        }
+        // if($koneksi){
+        //     echo 'berhasil koneksi ';
+        // }else{
+        //     echo 'gagal';
+        // }
     if(isset($_POST['simpandata'])){
         $nama = $_POST['nama'];
         $pelayanan = $_POST['pelayanan'];
@@ -61,8 +61,11 @@
             .output {
                 width:80%;
             }
-            a{
-                color:white;
+            .sosmed {
+                color: white;
+            }
+            header ul li a .active{
+                color: white;
             }
             header ul li a{
                 color:black;
@@ -72,6 +75,7 @@
             color: white;
             text-decoration: none;
             }
+
             .active {
             background: linear-gradient(to bottom, #9d4ba5, #5d1796);
             color: white;
@@ -87,9 +91,9 @@
     <div class="medsos">
         <div class="container">
             <ul>
-                <li><a href="#"><i class="fab fa-facebook"></i></a></li>
-                <li><a href="https://www.instagram.com/_temporalis/" target="_blank"><i class="fab fa-instagram"></i></a></li>
-                <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                <li><a href="#"><i class="sosmed fab fa-facebook"></i></a></li>
+                <li><a href="https://www.instagram.com/_temporalis/" target="_blank"><i class="sosmed fab fa-instagram"></i></a></li>
+                <li><a href="#"><i class="sosmed fab fa-youtube"></i></a></li>
             </ul>
         </div>
     </div>
