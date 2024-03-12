@@ -7,5 +7,5 @@ Website yang merupakan tugas dari mata kuliah pemrograman web ini dilengkapi den
 sebagai review dari client yang menggunakan jasa pada company tersebut.
 
 <div align="center">
-  
+  <img width="100%" src="img/banner-readme.png" alt="banner">
 </div>
